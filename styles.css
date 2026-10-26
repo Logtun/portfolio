@@ -97,7 +97,7 @@ h2 .muted{color:var(--mu);font-weight:500}
 .job li{margin:5px 0}
 .job li b{color:var(--tx)}
 .projs{display:grid;gap:16px;margin-top:32px}
-@media(min-width:640px){.projs{grid-template-columns:1fr 1fr}}
+@media(min-width:720px){.projs{grid-template-columns:repeat(3,1fr)}}
 @media(min-width:1000px){.projs{grid-template-columns:repeat(3,1fr)}}
 .proj{display:flex;flex-direction:column;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:transform .25s,border-color .25s;min-width:0}
 .proj:hover{transform:translateY(-4px);border-color:#3f4a2c}
