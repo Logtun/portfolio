@@ -148,3 +148,9 @@ h2 .muted{color:var(--mu);font-weight:500}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .reveal{opacity:1;transform:none;transition:none}.chip{animation:none}*{transition:none!important}}
 .headline span{white-space:nowrap}
 @media(max-width:899px){.portrait{order:-1;justify-self:start;width:132px}.ring{padding:4px}.chip{display:none}.herogrid{gap:22px}.hero{padding-top:36px}}
+
+/* Testimonials */
+.tests{display:grid;gap:22px;margin-top:32px;max-width:920px}
+.test{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:10px;min-width:0}
+.test img{display:block;width:100%;height:auto;border-radius:calc(var(--r) - 8px);background:#313338}
+.test figcaption{padding:12px 6px 4px;color:var(--mu);font-size:.95rem;line-height:1.45}
