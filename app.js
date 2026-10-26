@@ -15,3 +15,13 @@
     io.unobserve(en.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
   els.forEach(function(e){io.observe(e)});
 })();
+(function(){
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  [].forEach.call(document.querySelectorAll('a[href="#top"]'),function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      try{window.scrollTo({top:0,left:0,behavior:reduce?'auto':'smooth'})}catch(_){window.scrollTo(0,0)}
+      if(history.replaceState)history.replaceState(null,'',location.pathname+location.search);
+    });
+  });
+})();
