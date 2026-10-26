@@ -169,3 +169,4 @@ h2 .muted{color:var(--mu);font-weight:500}
 @keyframes otwp{0%{transform:scale(1);opacity:.6}100%{transform:scale(3);opacity:0}}
 @media(max-width:420px){.otw{font-size:11.5px;gap:7px;padding:6px 10px;letter-spacing:-.005em}}
 @media(prefers-reduced-motion:reduce){.pulse:after{animation:none;opacity:0}}
+.otw-t{min-width:0;text-wrap:balance}
