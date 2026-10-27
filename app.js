@@ -2,6 +2,7 @@
   var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
   var els=[].slice.call(document.querySelectorAll('.reveal'));
   function count(el){
+    if(!el.hasAttribute('data-to'))return;
     var to=+el.getAttribute('data-to'),suf=el.getAttribute('data-suf')||'';
     if(reduce){el.textContent=to.toLocaleString('en-US')+suf;return}
     var t0=null,d=1400;
