@@ -1,0 +1,23 @@
+{
+  "name": "iamlogtun-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of **Iamlogtun** ([@iamlogtun](https://x.com/iamlogtun)): Community Manager/Moderator | Video Content Creator | Vibecoder.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logtun/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Logtun/portfolio/issues"
+  },
+  "homepage": "https://github.com/Logtun/portfolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
