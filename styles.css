@@ -270,3 +270,10 @@ h3,h4{color:var(--navy)}
 .cl b{color:#fff}
 .foot{background:var(--mid);color:#a4cdd3;border-top:1px solid rgba(212,235,240,.12)}
 .foot a{color:#d4ebf0}
+
+/* featured highlight (Axis Hub growth) */
+.hl .feat{grid-column:span 2}
+.hl .feat .num{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.hl .feat .nw{white-space:nowrap}
+.hl .feat .arr{color:#1D6A73;font-weight:600}
+@media(min-width:900px){.stats.hl{grid-template-columns:repeat(3,1fr)}}
