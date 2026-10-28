@@ -282,3 +282,9 @@ h3,h4{color:var(--navy)}
 .hl .hlink{align-self:flex-start;display:inline-flex;align-items:center;gap:4px;min-height:44px;margin:6px 0 -10px;font:700 13px/1.2 "Space Grotesk",sans-serif;color:#1D6A73;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .hl .hlink:hover{color:#0B2B48}
 .hl .hlink:focus-visible{outline:2px solid #1D6A73;outline-offset:2px;border-radius:4px}
+
+/* comms pills: X links (Oct 28) */
+.comms-p a{display:inline-flex;align-items:center;gap:6px}
+.comms-p a .xi{flex:none;opacity:.75}
+.comms-p a:hover .xi{opacity:1}
+@media (max-width:760px){.comms-p a{min-height:44px;padding-top:0;padding-bottom:0}}
