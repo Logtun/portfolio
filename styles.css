@@ -288,3 +288,6 @@ h3,h4{color:var(--navy)}
 .comms-p a .xi{flex:none;opacity:.75}
 .comms-p a:hover .xi{opacity:1}
 @media (max-width:760px){.comms-p a{min-height:44px;padding-top:0;padding-bottom:0}}
+
+/* header avatar (Oct 28) */
+.mono.av{display:block;width:32px;height:32px;padding:0;border-radius:50%;object-fit:cover;background:var(--bg2);box-shadow:0 0 0 2px #1F7A83;flex:none}
