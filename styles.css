@@ -297,3 +297,18 @@ h3,h4{color:var(--navy)}
 .test-sm .test-pad.dc img.hd{width:270px}
 
 .tests-members{margin-top:24px}
+
+/* Guides (Oct 31) */
+.guides{display:grid;gap:16px;margin-top:32px;grid-template-columns:1fr}
+@media(min-width:880px){.guides{grid-template-columns:1fr 1fr}}
+.guide{display:grid;grid-template-columns:minmax(0,190px) minmax(0,1fr);gap:22px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;min-width:0;transition:border-color .25s,box-shadow .25s}
+.guide:hover{border-color:var(--teal);box-shadow:0 14px 34px -18px rgba(11,43,72,.3)}
+.gcover{display:block;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--ice);box-shadow:0 10px 24px -14px rgba(11,43,72,.45)}
+.gcover img{width:100%;height:auto;aspect-ratio:600/850;object-fit:cover}
+.gbody{min-width:0}
+.gpages{font:600 12.5px "Space Grotesk",sans-serif;color:var(--mu);letter-spacing:.02em}
+.guide h3{font-size:20px;margin-top:10px;color:var(--navy)}
+.guide p{color:#2c4a60;font-size:14.5px;line-height:1.55;margin:8px 0 16px}
+.gbtn{min-height:44px;padding:0 18px;font-size:13px}
+@media(max-width:540px){.guide{grid-template-columns:1fr;justify-items:center;text-align:center;padding:22px 18px}.gcover{width:min(200px,60%)}.guide .pmeta{justify-content:center}.gbtn{width:100%}}
+.sec.alt .skills li:nth-child(-n+5){background:var(--tealp);border-color:var(--tealp);color:#fff}
