@@ -26,7 +26,8 @@
 <meta name="twitter:image" content="https://iamlogtun-portfolio.vercel.app/og-v2.jpg">
 <link rel="preload" href="fonts/LibreBaskerville-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/SpaceGrotesk.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="styles.css?v=20261031b">
+<script>(function(){var d=document.documentElement,t;try{t=localStorage.getItem("lt-theme")}catch(e){}if(t!=="dark"&&t!=="light")t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.dataset.theme=t;if(t==="dark"){var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content","#08131d")}})()</script>
+<link rel="stylesheet" href="styles.css?v=20261108a">
 <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
@@ -38,6 +39,7 @@
     <nav aria-label="Sections">
       <a href="#highlights">Highlights</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#content">Content</a><a href="#guides">Guides</a><a href="#contact">Contact</a>
     </nav>
+    <button class="tt" id="tt" type="button" aria-label="Dark mode" title="Dark mode"><svg class="tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   </div>
 </header>
 <main id="main">
@@ -211,7 +213,7 @@
 </section>
 </main>
 <footer class="foot"><div class="wrap"><span>© 2026 Iamlogtun · @iamlogtun</span><a href="#top">Back to top ↑</a></div></footer>
-<script src="app.js?v=20261029j" defer></script>
+<script src="app.js?v=20261108a" defer></script>
 <script>(function(){if(!/(^|\.)iamlogtun\.site$|vercel\.app$/.test(location.hostname))return;try{if(/[?&]me(=|&|$)/.test(location.search))localStorage.setItem("lt_me","1");if(localStorage.getItem("lt_me"))return}catch(x){}function s(e,p){try{var b=JSON.stringify({e:e,p:p||location.pathname,r:document.referrer,tz:(Intl.DateTimeFormat().resolvedOptions().timeZone||""),w:innerWidth,h:location.hostname});if(navigator.sendBeacon&&navigator.sendBeacon("/api/v",new Blob([b],{type:"text/plain"})))return;fetch("/api/v",{method:"POST",body:b,keepalive:true})}catch(x){}}s("view");document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href")||"";if(/^(https?:|mailto:)|\.pdf/i.test(h))s("click",h.slice(0,200))},true)})();</script>
 </body>
 </html>
