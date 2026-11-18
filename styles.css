@@ -93,6 +93,8 @@ h2 .muted{color:var(--mu);font-weight:500}
 .jhead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;align-items:baseline}
 .job h3{font-size:20px}
 .co{margin:2px 0 0;color:var(--ac);font-weight:600}
+#experience .co-with-logo{display:flex;align-items:center;gap:8px;min-width:0}
+#experience .experience-logo{display:block;width:30px;height:30px;flex:0 0 30px;object-fit:contain;border-radius:7px;background:#fff;box-shadow:0 0 0 1px var(--line)}
 .when{font-size:13px;color:var(--mu);border:1px solid var(--line);padding:3px 10px;border-radius:99px;white-space:nowrap}
 .job ul{margin:12px 0 0;padding-left:18px;color:#b8bfc8;font-size:15px}
 .job li{margin:5px 0}
